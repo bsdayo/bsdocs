@@ -26,6 +26,5 @@ export default defineUserConfig<DefaultThemeOptions>({
     backToHome: '返回首页',
     navbar,
     sidebar,
-    logo: 'https://vuejs.org/images/logo.png',
   },
 })

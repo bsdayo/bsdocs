@@ -1,5 +1,12 @@
 # 更新日志
 
+## 1.3.0 - 2022.3.12
+- plugin/arcaea
+    - 将部分依赖 AUA 的指令 `alias`, `info`, `random` 转为本地处理，反应速度应有所改善，同时降低了 AUA 服务 器的压力。`recommend` 由于需要查询潜力值，所以只部分本地化。
+    - 修复 `/a random` 无效的问题
+    - 优化部分指令回复文本
+
+
 ## 1.2.2 - 2022.3.1
 - plugin/arcaea
     - 新增指令 `/arc ycm`，实现 Link Play 查车、发车操作
