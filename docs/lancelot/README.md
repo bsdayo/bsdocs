@@ -25,3 +25,6 @@ Bot 目前主要提供音游 Arcaea 的查分服务，未来有可能发展出�
 
 满了的一群：
 <img src="./QQGroupQRCode1.jpg" width="300px" style="margin-top: 20px" />
+
+如果您想获得更高的稳定性，您也可以选择加入QQ频道使用：
+<img src="./QQGuildQRCode.jpg" width="300px" style="margin-top: 20px" />
