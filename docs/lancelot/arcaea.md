@@ -210,6 +210,7 @@ ArcaeaLimitedAPI（以下简称 ALA） 与 ArcaeaUnlimitedAPI（以下简称 AUA
 
 推荐曲目的定数范围为 PTT-1.75 ~ PTT-0.50（向下取整），PTT 大于 12.25 会被修正为 12.25，PTT 大于 12.05 且小于 12.25 会被修正为 12.05，然后参与计算。
 
+
 ### /arc ycm - 查询或添加 Link Play 车队
 
 **指令格式**
@@ -220,7 +221,7 @@ ArcaeaLimitedAPI（以下简称 ALA） 与 ArcaeaUnlimitedAPI（以下简称 AUA
 
 **可用简写**
 
-`有车吗`、`有车嘛`、`/ycm`
+`有车吗`、`有车嘛`、`/ycm`、`ycm`
 
 **使用示例**
 
@@ -232,6 +233,28 @@ ArcaeaLimitedAPI（以下简称 ALA） 与 ArcaeaUnlimitedAPI（以下简称 AUA
 - 查询车队，使用简写
 有车嘛
 ```
+
+# /arc ptt - 根据得分计算单曲潜力值
+
+**指令格式**
+
+```:no-line-numbers
+/arc ptt <曲目名称> <得分> [难度(默认FTR)]
+```
+
+**可用简写**
+
+`计算潜力值`、`计算ptt`
+
+**使用示例**
+
+```:no-line-numbers
+- 查询曲目 Sheriruth [Future] 得分 9114514 的单曲潜力值
+/arc ptt sheriruth 9114514
+- 查询曲目 Ringed Genesis [Present] 得分 9191981 的单曲潜力值
+/arc ptt rg 9191981 prs
+```
+
 
 ## 常见问题
 
