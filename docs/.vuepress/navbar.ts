@@ -6,6 +6,8 @@ const navbar: NavbarConfig = [
     children: [
       '/lancelot/README.md',
       '/lancelot/arcaea.md',
+      '/lancelot/gosen.md',
+      '/lancelot/utils.md',
       '/lancelot/changelog.md',
     ],
   },
