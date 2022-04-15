@@ -7,7 +7,8 @@ const sidebar: SidebarConfig = {
       children: [
         '/lancelot/README.md',
         '/lancelot/arcaea.md',
-        '/lancelot/gosen.md',
+        '/lancelot/tools.md',
+        '/lancelot/poke.md',
         '/lancelot/utils.md',
         '/lancelot/changelog.md',
       ],
