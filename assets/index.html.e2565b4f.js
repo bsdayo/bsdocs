@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-511e1a6c","path":"/YukiChan/","title":"\u7B80\u4ECB","lang":"zh-CN","frontmatter":{},"excerpt":"","headers":[{"level":2,"title":"\u4E3A\u4EC0\u4E48\u4F1A\u6709\u66AE\u96EA\u9171\uFF1F","slug":"\u4E3A\u4EC0\u4E48\u4F1A\u6709\u66AE\u96EA\u9171","children":[]}]}');export{e as data};
