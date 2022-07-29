@@ -1,7 +1,5 @@
 # Arcaea
 
-<Badge text="plugin/arcaea" />
-
 ## AUA 与 ALA
 
 ArcaeaLimitedAPI（以下简称 ALA） 与 ArcaeaUnlimitedAPI（以下简称 AUA）是两套各自独立为 bot 提供上游服务的 API。具体区别如下：
@@ -21,13 +19,13 @@ ArcaeaLimitedAPI（以下简称 ALA） 与 ArcaeaUnlimitedAPI（以下简称 AUA
 
 **指令格式**
 
-```:no-line-numbers
+```
 /arc bind <你的 Arcaea 好友代码>
 ```
 
 **使用示例**
 
-```:no-line-numbers
+```
 /arc bind 114514191
 ```
 
@@ -35,7 +33,7 @@ ArcaeaLimitedAPI（以下简称 ALA） 与 ArcaeaUnlimitedAPI（以下简称 AUA
 
 **使用示例**
 
-```:no-line-numbers
+```
 /arc unbind
 ```
 
@@ -43,7 +41,7 @@ ArcaeaLimitedAPI（以下简称 ALA） 与 ArcaeaUnlimitedAPI（以下简称 AUA
 
 **指令格式**
 
-```:no-line-numbers
+```
 /arc b30 [用户 Arcaea 好友代码] [--official | --simple]
 ```
 
@@ -58,7 +56,7 @@ ArcaeaLimitedAPI（以下简称 ALA） 与 ArcaeaUnlimitedAPI（以下简称 AUA
 
 **使用示例**
 
-```:no-line-numbers
+```
 - 查询自己的 Best30 成绩（需先绑定）
 /arc b30
 - 查询好友代码为 191981011 的 Best30 成绩
@@ -71,7 +69,7 @@ ArcaeaLimitedAPI（以下简称 ALA） 与 ArcaeaUnlimitedAPI（以下简称 AUA
 
 **指令格式**
 
-```:no-line-numbers
+```
 /arc best <曲目名称> [难度，默认 Future]
 ```
 
@@ -81,7 +79,7 @@ ArcaeaLimitedAPI（以下简称 ALA） 与 ArcaeaUnlimitedAPI（以下简称 AUA
 
 **使用示例**
 
-```:no-line-numbers
+```
 - 查询曲目 Fracture Ray 的最高成绩（需先绑定）
 /arc best 骨折光
 - 查询曲目 Ringed Genesis，Present 难度的最高成绩（需先绑定）
@@ -98,7 +96,7 @@ ArcaeaLimitedAPI（以下简称 ALA） 与 ArcaeaUnlimitedAPI（以下简称 AUA
 
 **指令格式**
 
-```:no-line-numbers
+```
 /arc recent [数量，1 ~ 7]
 ```
 
@@ -108,7 +106,7 @@ ArcaeaLimitedAPI（以下简称 ALA） 与 ArcaeaUnlimitedAPI（以下简称 AUA
 
 **使用示例**
 
-```:no-line-numbers
+```
 - 查询最近 1 条成绩
 /arc recent
 - 查询最近 1 条成绩，使用简写
@@ -123,7 +121,7 @@ ArcaeaLimitedAPI（以下简称 ALA） 与 ArcaeaUnlimitedAPI（以下简称 AUA
 
 **指令格式**
 
-```:no-line-numbers
+```
 /arc info <曲目名称>
 ```
 
@@ -133,7 +131,7 @@ ArcaeaLimitedAPI（以下简称 ALA） 与 ArcaeaUnlimitedAPI（以下简称 AUA
 
 **使用示例**
 
-```:no-line-numbers
+```
 - 查询 Sheriruth 的信息
 /arc info sheriruth
 - 查询 Sheriruth 的信息，使用简写和曲目别名
@@ -144,7 +142,7 @@ ArcaeaLimitedAPI（以下简称 ALA） 与 ArcaeaUnlimitedAPI（以下简称 AUA
 
 **指令格式**
 
-```:no-line-numbers
+```
 /arc alias <曲目名称>
 ```
 
@@ -154,7 +152,7 @@ ArcaeaLimitedAPI（以下简称 ALA） 与 ArcaeaUnlimitedAPI（以下简称 AUA
 
 **使用示例**
 
-```:no-line-numbers
+```
 - 查询 World Vanquisher 的别名
 /arc info world vanquisher
 - 查询 World Vanquisher 的别名，使用简写和曲目别名
@@ -165,7 +163,7 @@ ArcaeaLimitedAPI（以下简称 ALA） 与 ArcaeaUnlimitedAPI（以下简称 AUA
 
 **指令格式**
 
-```:no-line-numbers
+```
 /arc random [起始难度] [最高难度]
 ```
 
@@ -175,7 +173,7 @@ ArcaeaLimitedAPI（以下简称 ALA） 与 ArcaeaUnlimitedAPI（以下简称 AUA
 
 **使用示例**
 
-```:no-line-numbers
+```
 - 随机 9 级曲目
 /arc random 9
 - 随机曲目，范围为 9 ~ 10+，使用简写
@@ -192,7 +190,7 @@ ArcaeaLimitedAPI（以下简称 ALA） 与 ArcaeaUnlimitedAPI（以下简称 AUA
 
 **指令格式**
 
-```:no-line-numbers
+```
 /arc recommend
 ```
 
@@ -202,7 +200,7 @@ ArcaeaLimitedAPI（以下简称 ALA） 与 ArcaeaUnlimitedAPI（以下简称 AUA
 
 **使用示例**
 
-```:no-line-numbers
+```
 推荐曲目
 ```
 
@@ -215,7 +213,7 @@ ArcaeaLimitedAPI（以下简称 ALA） 与 ArcaeaUnlimitedAPI（以下简称 AUA
 
 **指令格式**
 
-```:no-line-numbers
+```
 /arc ycm [房间号] [描述]
 ```
 
@@ -225,7 +223,7 @@ ArcaeaLimitedAPI（以下简称 ALA） 与 ArcaeaUnlimitedAPI（以下简称 AUA
 
 **使用示例**
 
-```:no-line-numbers
+```
 - 添加车队
 /arc ycm ASMR12 红框休闲车
 - 查询车队
@@ -238,7 +236,7 @@ ArcaeaLimitedAPI（以下简称 ALA） 与 ArcaeaUnlimitedAPI（以下简称 AUA
 
 **指令格式**
 
-```:no-line-numbers
+```
 /arc ptt <曲目名称> <得分> [难度(默认FTR)]
 ```
 
@@ -248,7 +246,7 @@ ArcaeaLimitedAPI（以下简称 ALA） 与 ArcaeaUnlimitedAPI（以下简称 AUA
 
 **使用示例**
 
-```:no-line-numbers
+```
 - 查询曲目 Sheriruth [Future] 得分 9114514 的单曲潜力值
 /arc ptt sheriruth 9114514
 - 查询曲目 Ringed Genesis [Present] 得分 9191981 的单曲潜力值

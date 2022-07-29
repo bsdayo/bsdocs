@@ -8,13 +8,13 @@
 
 **指令格式**
 
-```:no-line-numbers
+```
 @SpecificBot /mainbot
 ```
 
 **使用示例**
 
-```:no-line-numbers
+```
 @Bedivere /mainbot
 ```
 

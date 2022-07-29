@@ -1,14 +1,12 @@
 # BaiduTranslate - 百度翻译
 
-<Badge text="YukiChan.Modules.BaiduTranslate" />
-
 ## 指令帮助
 
 ### #code run - 运行 C# 代码/表达式
 
 **指令格式**
 
-```:no-line-numbers
+```
 #trans [源语言:目标语言] <文本>
 ```
 
@@ -18,7 +16,7 @@
 
 **使用示例**
 
-```:no-line-numbers
+```
 - 将 pure 翻译成中文（源语言将自动检测）
 #trans pure
 - 等同于

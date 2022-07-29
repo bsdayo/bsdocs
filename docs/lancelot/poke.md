@@ -1,7 +1,5 @@
 # 戳一戳
 
-<Badge text="plugin/poke" />
-
 当在群内进行戳一戳操作时，Bot 会对相应数据进行记录。如果戳一戳对象是 Bot，则会触发一些随机回复。
 
 ## 指令帮助
@@ -12,7 +10,7 @@
 
 **指令格式**
 
-```:no-line-numbers
+```
 /poke info
 ```
 
@@ -22,7 +20,7 @@
 
 **使用示例**
 
-```:no-line-numbers
+```
 /poke info
 戳一戳信息
 ```
@@ -35,7 +33,7 @@
 
 **指令格式**
 
-```:no-line-numbers
+```
 /poke info
 ```
 
@@ -45,7 +43,7 @@
 
 **使用示例**
 
-```:no-line-numbers
+```
 /poke info
 戳一戳信息
 ```

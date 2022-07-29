@@ -1,6 +1,4 @@
-# Bilibili - 运行 C# 代码/表达式
-
-<Badge text="YukiChan.Modules.Bilibili" />
+# Bilibili - 哔哩哔哩相关功能
 
 ## 指令帮助
 
@@ -8,13 +6,13 @@
 
 **指令格式**
 
-```:no-line-numbers
+```
 #bilibili av <AV号>
 ```
 
 **使用示例**
 
-```:no-line-numbers
+```
 #bilibili av 170001
 ```
 
@@ -22,6 +20,6 @@
 
 **指令格式**
 
-```:no-line-numbers
+```
 #bilibili bv <BV号>
 ```

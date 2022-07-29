@@ -1,7 +1,5 @@
 # Arcaea - Arcaea 相关功能
 
-<Badge text="YukiChan.Modules.Arcaea" />
-
 ## 指令帮助
 
 **注：暮雪酱的 Arcaea 功能尚未完全开发完成**
@@ -14,13 +12,13 @@
 
 **指令格式**
 
-```:no-line-numbers
+```
 #a bind <名称/好友代码>
 ```
 
 **使用示例**
 
-```:no-line-numbers
+```
 #a bind ToasterKoishi
 #a bind 114514191
 ```
@@ -29,7 +27,7 @@
 
 **使用示例**
 
-```:no-line-numbers
+```
 #a unbind
 ```
 
@@ -37,7 +35,7 @@
 
 **指令格式**
 
-```:no-line-numbers
+```
 #a b30 [名称/好友代码] [dark]
 ```
 
@@ -47,7 +45,7 @@
 
 **使用示例**
 
-```:no-line-numbers
+```
 - 查询自己的 Best30 成绩（需先绑定）
 #a b30
 - 查询玩家 Nagiha0798 的 Best30 成绩
@@ -60,7 +58,7 @@
 
 **指令格式**
 
-```:no-line-numbers
+```
 #a info <曲目名称> [details]
 ```
 
@@ -74,7 +72,7 @@
 
 **使用示例**
 
-```:no-line-numbers
+```
 - 查询 Sheriruth 的信息
 #a info sheriruth
 - 查询 Sheriruth 的信息，使用简写和曲目别名
@@ -87,7 +85,7 @@
 
 **指令格式**
 
-```:no-line-numbers
+```
 #a random [起始难度] [最高难度]
 ```
 
@@ -97,7 +95,7 @@
 
 **使用示例**
 
-```:no-line-numbers
+```
 - 随机 9 级曲目
 #a random 9
 - 随机曲目，范围为 9 ~ 10+，使用简写
