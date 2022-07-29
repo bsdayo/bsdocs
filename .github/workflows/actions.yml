@@ -13,8 +13,9 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16
-          cache: yarn
-      - run: yarn install
+
+      - name: Install Dependencies
+        run: yarn install
 
       - name: Build
         run: yarn docs:build
