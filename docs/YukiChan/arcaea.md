@@ -1,0 +1,116 @@
+# Arcaea - Arcaea 相关功能
+
+<Badge text="YukiChan.Modules.Arcaea" />
+
+## 指令帮助
+
+**注：暮雪酱的 Arcaea 功能尚未完全开发完成**
+
+不同于 lancelot，暮雪对于 Arcaea 模块仅提供一种根指令：`#a`。
+
+指令格式中，中括号 `[]` 中的内容为**可选参数**，尖括号 `<>` 中的内容为**必选参数**。
+
+### #a bind - 绑定 Arcaea 账号
+
+**指令格式**
+
+```:no-line-numbers
+#a bind <名称/好友代码>
+```
+
+**使用示例**
+
+```:no-line-numbers
+#a bind ToasterKoishi
+#a bind 114514191
+```
+
+### #a unbind - 取消绑定 Arcaea 账号
+
+**使用示例**
+
+```:no-line-numbers
+#a unbind
+```
+
+### #a b30 - 查询 Best30 成绩
+
+**指令格式**
+
+```:no-line-numbers
+#a b30 [名称/好友代码] [dark]
+```
+
+**选项说明**
+
+`dark`: 生成暗色 B30 图片。
+
+**使用示例**
+
+```:no-line-numbers
+- 查询自己的 Best30 成绩（需先绑定）
+#a b30
+- 查询玩家 Nagiha0798 的 Best30 成绩
+#a b30 191981011
+- 查询好友代码为 191981011 的 Best30 成绩
+#a b30 191981011
+```
+
+### #a info - 查询曲目信息
+
+**指令格式**
+
+```:no-line-numbers
+#a info <曲目名称> [details]
+```
+
+**简写形式**
+
+`查定数`
+
+**选项说明**
+
+`details`: 查询详细信息，包括每个难度的曲师、谱师等等。
+
+**使用示例**
+
+```:no-line-numbers
+- 查询 Sheriruth 的信息
+#a info sheriruth
+- 查询 Sheriruth 的信息，使用简写和曲目别名
+查定数 对立削苹果
+- 查询 Testify 的详细信息
+查定数 testify details
+```
+
+### #a random - 随机曲目
+
+**指令格式**
+
+```:no-line-numbers
+#a random [起始难度] [最高难度]
+```
+
+**简写形式**
+
+`随机曲目`
+
+**使用示例**
+
+```:no-line-numbers
+- 随机 9 级曲目
+#a random 9
+- 随机曲目，范围为 9 ~ 10+，使用简写
+随机曲目 9 10+
+- 全曲随机（Future 难度）
+随机曲目
+```
+
+**备注**
+
+若输入了起始难度但没有输入最高难度，则会在起始难度中随机抽取。
+
+## 常见问题
+
+### 怎么没有 official 模式查分？
+开发中，敬请期待

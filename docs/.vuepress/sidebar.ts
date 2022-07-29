@@ -14,6 +14,19 @@ const sidebar: SidebarConfig = {
       ],
     },
   ],
+  '/YukiChan/': [
+    {
+      text: '暮雪酱',
+      children: [
+        '/YukiChan/README.md',
+        '/YukiChan/arcaea.md',
+        '/YukiChan/bilibili.md',
+        '/YukiChan/code.md',
+        '/YukiChan/trans.md',
+        '/YukiChan/wolframalpha.md',
+      ],
+    },
+  ],
 }
 
 export default sidebar
