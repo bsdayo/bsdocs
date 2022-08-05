@@ -23,6 +23,12 @@ const navbar: DefaultTheme.NavItem[] = [
       { text: 'Wolfram Alpha', link: '/YukiChan/wolframalpha.md' },
     ],
   },
+  {
+    text: 'BiliSharp',
+    items: [
+      { text: '简介', link: '/BiliSharp/index.md' },
+    ],
+  },
 ]
 
 export default navbar

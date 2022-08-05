@@ -27,6 +27,27 @@ const sidebar: DefaultTheme.Sidebar = {
       ],
     },
   ],
+  '/BiliSharp/': [
+    {
+      text: 'BiliSharp',
+      items: [
+        { text: '简介', link: '/BiliSharp/index.md' },
+      ],
+    },
+    {
+      text: '指引',
+      items: [
+        { text: '获取第一个视频', link: '/BiliSharp/guide/first-video.md' },
+        { text: '获取 Credential 认证信息', link: '/BiliSharp/guide/get-credential.md' },
+      ],
+    },
+    {
+      text: 'API 参考',
+      items: [
+        { text: 'BiliVideo', link: '/BiliSharp/api/BiliVideo.md' }
+      ]
+    }
+  ],
 }
 
 export default sidebar
