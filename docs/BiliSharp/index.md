@@ -22,7 +22,7 @@
 
 ## 许可证
 
-本项目遵循 [MIT 许可证](./LICENSE)开源，欢迎参与贡献。
+本项目遵循 [MIT 许可证](https://github.com/b1acksoil/BiliSharp/blob/main/LICENSE)开源，欢迎参与贡献。
 
 <style>
 .badges img {
