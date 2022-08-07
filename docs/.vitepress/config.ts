@@ -8,7 +8,7 @@ export default defineConfigWithTheme<DefaultTheme.Config>({
   description: 'b1acksoil 的文档集合',
   lang: 'zh-CN',
   appearance: true,
-  base: '/',
+  base: '/BsDocs/',
   lastUpdated: true,
   markdown: {
     theme: 'one-dark-pro',
