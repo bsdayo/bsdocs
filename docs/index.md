@@ -18,7 +18,7 @@ hero:
 
 features:
   - title: 暮雪酱
-    details: 暮雪酱 (YukiChan) 是一个全新开发的 QQ 平台聊天机器人 (Bot)，基于 .NET 6 + C#，框架使用 Konata.Core，相较前作在架构上有着很大的革新。
+    details: 暮雪酱 (YukiChan) 是一个全新开发的跨平台聊天机器人 (Bot)，基于 .NET 7 + C#，框架使用 Flandre，相较前作在架构上有着很大的革新。
   - title: lancelot.bot
     details: lancelot.bot 是一个跨平台的聊天机器人 (Bot)，基于 Node.js + TypeScript 开发，框架使用 Koishi.js。Bot 目前主要提供音游 Arcaea 的查分服务，未来有可能发展出更多功能。
 ---
