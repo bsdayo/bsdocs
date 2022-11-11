@@ -16,14 +16,29 @@ const sidebar: DefaultTheme.Sidebar = {
   ],
   '/YukiChan/': [
     {
-      text: '暮雪酱',
+      text: '暮雪酱 v2',
       items: [
         { text: '简介', link: '/YukiChan/index.md' },
+        { text: '指令简介', link: '/YukiChan/intro.md' },
         { text: 'Arcaea - Arcaea 相关功能', link: '/YukiChan/arcaea.md' },
-        { text: 'Bilibili - 哔哩哔哩相关功能', link: '/YukiChan/bilibili.md' },
-        { text: 'Code - 运行 C# 代码/表达式', link: '/YukiChan/code.md' },
         { text: 'BaiduTranslate - 百度翻译', link: '/YukiChan/trans.md' },
         { text: 'WolframAlpha - Wolfram Alpha 搜索', link: '/YukiChan/wolframalpha.md' },
+        { text: '杂项', link: '/YukiChan/misc.md' },
+        { text: 'v1 版本文档', link: '/YukiChan/v1/index.md' },
+      ],
+    },
+  ],
+  '/YukiChan/v1/': [
+    {
+      text: '暮雪酱 v1',
+      items: [
+        { text: '简介', link: '/YukiChan/v1/index.md' },
+        { text: 'Arcaea - Arcaea 相关功能', link: '/YukiChan/v1/arcaea.md' },
+        { text: 'Bilibili - 哔哩哔哩相关功能', link: '/YukiChan/v1/bilibili.md' },
+        { text: 'Code - 运行 C# 代码/表达式', link: '/YukiChan/v1/code.md' },
+        { text: 'BaiduTranslate - 百度翻译', link: '/YukiChan/v1/trans.md' },
+        { text: 'WolframAlpha - Wolfram Alpha 搜索', link: '/YukiChan/v1/wolframalpha.md' },
+        { text: 'v2 版本文档', link: '/YukiChan/index.md' },
       ],
     },
   ],

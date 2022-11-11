@@ -6,27 +6,23 @@
 
 ## 指令帮助
 
-### /wa - 执行 Wolfram Alpha 搜索
+### #wa - 执行 Wolfram Alpha 搜索
 
 **指令格式**
 
 ```
-/wa <搜索内容>
+#wa <搜索内容>
 ```
 
-::: details 使用示例
+**使用示例**
+
+```
 - 查询函数 x^2 + y^2 = 16 的相关信息
-```
-/wa x^2+y^2=16
-```
+#wa x^2+y^2=16
 - 查询电解水的反应方程式（自动配平）
-```
-/wa H2O==H2+O2
-```
+#wa H2O==H2+O2
 - 查询历史上的今天
+#wa today in history
 ```
-/wa today in history
-```
-:::
 
 更多用法可前往[Wolfram Alpha 官网](https://www.wolframalpha.com/)查看。

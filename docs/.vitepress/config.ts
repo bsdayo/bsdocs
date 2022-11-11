@@ -20,7 +20,7 @@ export default defineConfigWithTheme<DefaultTheme.Config>({
     nav,
     sidebar,
     footer: {
-      message: '所有文档均采用 CC-BY-SA 4.0 许可协议',
+      message: '所有文档均采用 CC-BY-NC-SA 4.0 许可协议',
       copyright: 'Copyright © 2022 b1acksoil',
     },
   },

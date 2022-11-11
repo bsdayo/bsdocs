@@ -2,42 +2,40 @@
 
 ## 指令帮助
 
-### /trans - 执行百度翻译
+### #trans - 执行百度翻译
 
 **指令格式**
 
 ```
-/trans [选项] <文本>
-翻译 [选项] <文本>
+#trans [源语言:目标语言] <文本>
 ```
 
-**选项说明**
+**简写形式**
 
-`-s, --source <语言>`: 源语言，默认为自动检测  
-`-t, --target <语言>`: 目标语言，默认为中文
+`翻译`
 
-::: details 使用示例
+**使用示例**
+
+```
 - 将 pure 翻译成中文（源语言将自动检测）
-```
-/trans pure
-/trans -s auto -t zh pure
-```
+#trans pure
+- 等同于
+#trans auto:zh pure
+
 - 将 rabbit 由英文翻译成日文
-```
-/trans -s en -t jp rabbit
-/trans -s 英语 -t 日语 rabbit
-```
+#trans en:jp rabbit
+- 等同于
+#trans 英语:日语 rabbit
+
 - 使用简写形式
+翻译 world ender
 ```
-翻译 -t jp world ender
-```
-:::
 
 **语言列表**
 
-代号和中文名都可以使用
+代码和中文名都可以使用
 
-| 语言代号 | 语言中文名 |
+| 语言代码 | 语言中文名 |
 |------|--------------|
 | auto | 自动, 自动检测  |
 | zh   | 中文, 简中  |
