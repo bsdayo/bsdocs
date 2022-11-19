@@ -24,6 +24,7 @@ const sidebar: DefaultTheme.Sidebar = {
         { text: 'BaiduTranslate - 百度翻译', link: '/YukiChan/trans.md' },
         { text: 'WolframAlpha - Wolfram Alpha 搜索', link: '/YukiChan/wolframalpha.md' },
         { text: '杂项', link: '/YukiChan/misc.md' },
+        { text: '图查预览', link: '/YukiChan/gallery.md' },
         { text: 'v1 版本文档', link: '/YukiChan/v1/index.md' },
       ],
     },

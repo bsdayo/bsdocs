@@ -4,7 +4,7 @@ lancelot.bot 是一个跨平台的聊天机器人 (Bot)，基于 Node.js + TypeS
 
 Bot 目前主要提供音游 Arcaea 的查分服务，未来有可能发展出更多功能。
 
-由于 QQ 对 Bot 的大规模封冻，lancelot 已逐步迁移至暂无封冻机制的 QQ 频道。您可以[点击这里](https://qun.qq.com/qqweb/qunpro/share?_wv=3&_wwv=128&appChannel=share&inviteCode=11UIUD&businessType=9&from=246610&biz=ka)加入。
+由于 QQ 对 Bot 的大规模封冻，lancelot 已逐步迁移至暂无封冻机制的 QQ 频道。你可以[点击这里](https://qun.qq.com/qqweb/qunpro/share?_wv=3&_wwv=128&appChannel=share&inviteCode=11UIUD&businessType=9&from=246610&biz=ka)加入。
 
 ## Bot 家族
 
@@ -23,7 +23,7 @@ Bot 目前主要提供音游 Arcaea 的查分服务，未来有可能发展出�
 
 ## 加入开发
 
-如果您对 Bot 的开发或维护有兴趣，欢迎加入下方的讨论群联系群主。您也可以通过邮箱联系 [bs@blacksoil.top](mailto:bs@blacksoil.top)。
+如果你对 Bot 的开发或维护有兴趣，欢迎加入下方的讨论群联系群主。你也可以通过邮箱联系 [bs@blacksoil.top](mailto:bs@blacksoil.top)。
 
 ## 讨论群
 

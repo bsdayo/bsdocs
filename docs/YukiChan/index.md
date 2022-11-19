@@ -10,12 +10,14 @@
 v2 版本是较为稳定的一个版本，未来应该不会再进行架构上的更改。逐步会推出更多新功能，敬请期待。
 
 ::: tip 第一次使用暮雪酱？
-暮雪酱使用指令进行操作，包含选项等一些概念。很少，但了解它们可以助您更好地使用 Bot。您可以[点击这里](./intro.md)了解更多。
+暮雪酱使用指令进行操作，包含选项等一些概念。很少，但了解它们可以助你更好地使用 Bot。你可以[点击这里](./intro.md)了解更多。
+
+[这里](./gallery.md) 有一些图查的预览图片，相信你会喜欢的（笑
 :::
 
 ::: tip 遇到问题？
-对于 QQ 用户，您可以加入我们的 QQ 群 **883632773** 反馈。  
-对于 QQ 频道用户，您可以加入我们的频道 [e0r35nc9e2](https://qun.qq.com/qqweb/qunpro/share?_wv=3&_wwv=128&appChannel=share&inviteCode=11UIUD&businessType=9&from=246610&biz=ka)。  
+对于 QQ 用户，你可以加入我们的 QQ 群 **883632773** 反馈。  
+对于 QQ 频道用户，你可以加入我们的频道 [e0r35nc9e2](https://qun.qq.com/qqweb/qunpro/share?_wv=3&_wwv=128&appChannel=share&inviteCode=11UIUD&businessType=9&from=246610&biz=ka)。  
 或者，通过 [邮箱 (bs@sorabs.cc)](mailto:bs@sorabs.cc) 联系我。
 :::
 
