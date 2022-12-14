@@ -9,6 +9,9 @@
 
 v2 版本是较为稳定的一个版本，未来应该不会再进行架构上的更改。逐步会推出更多新功能，敬请期待。
 
+## 关于 lancelot.bot
+lancelot.bot 是该系列 Bot 的最初代，从 2022 年 1 月开始开发。后来经过大规模重构，逐步演变了成现在的暮雪酱。截至当前，lancelot.bot 已经归档并停止开发，其所有分发账号（lancelot、latte、Bedivere、Percivale、Galahad、Sonata Tairitsu）已停止为 lancelot.bot 提供支持。部分账号转回号主，其余部分由现在的暮雪酱接管。
+
 ::: tip 第一次使用暮雪酱？
 暮雪酱使用指令进行操作，包含选项等一些概念。很少，但了解它们可以助你更好地使用 Bot。你可以[点击这里](./intro.md)了解更多。
 
