@@ -1,0 +1,1 @@
+import{_ as a,c as s,o as n,a as e}from"./app.19b74178.js";const f=JSON.parse('{"title":"指令简介","description":"","frontmatter":{},"headers":[],"relativePath":"YukiChan/intro.md","lastUpdated":1675006551000}'),o={name:"YukiChan/intro.md"},p=e("",13),c=[p];function t(l,d,r,i,b,_){return n(),s("div",null,c)}const g=a(o,[["render",t]]);export{f as __pageData,g as default};
