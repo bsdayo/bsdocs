@@ -1,5 +1,9 @@
 # 暮雪酱 v2
 
+::: danger 注意！
+自暮雪酱 v3 起，使用文档已迁移至 [https://yukidocs.sorabs.cc/](https://yukidocs.sorabs.cc/)，请前往查看最新版本。本页面为 v2 版本的旧文档，已经停止更新。
+:::
+
 暮雪酱 (YukiChan) 是一个全新开发的 QQ 平台聊天机器人 (Bot)，基于 .NET 7 + C#，使用 [Flandre](https://github.com/FlandreDevs/Flandre) 框架开发。
 
 ## 与暮雪酱 v1 的区别？
